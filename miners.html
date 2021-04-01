@@ -14,7 +14,7 @@
 		<link rel="icon" href="https://www.spruko.com/demo/dashpro/Dashpro/assets/img/brand/favicon.ico" type="image/x-icon"/>
 
 		<!-- Title -->
-		<title>Dashpro - HTML Admin Dashboard Template</title>
+		<title>EgyMiners Pool</title>
 
 		<!-- Bootstrap css-->
 		<link href="../../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
@@ -179,16 +179,24 @@
 							<a class="nav-link" href="miners.html"><i class="fas fa-users sidemenu-icon"></i><span
 									class="sidemenu-label">Miners</span></a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link" href="api.html"><i class="fas fa-project-diagram sidemenu-icon"></i><span
 									class="sidemenu-label">API</span></a>
-						</li>
+						</li> -->
 						<li class="nav-item">
-							<a class="nav-link" href="help.html"><i class="fas fa-question-circle sidemenu-icon"></i></i><span
-									class="sidemenu-label">Help</span></a>
-						</li>
+							<a class="nav-link with-sub" href="#"><i class="fas fa-question-circle sidemenu-icon"></i><span
+									class="sidemenu-label">Help</span><i class="angle fe fe-chevron-right"></i></a>
+							<ul class="nav-sub" style="display: none;">
+								<li class="nav-sub-item">
+									<a class="nav-sub-link" href="faq.html">FAQ</a>
+								</li>
+								<li class="nav-sub-item">
+									<a class="nav-sub-link" href="getting-started.html">Getting Started</a>
+								</li>
 							</ul>
 						</li>
+					</ul>
+					</li>
 					</ul>
 				</div>
 			</div>
@@ -580,9 +588,9 @@
 						<!-- Page Header -->
 						<div class="page-header">
 							<div class="page-header-1">
-								<h1 class="main-content-title tx-30">Charts</h1>
+								<h1 class="main-content-title tx-30">Pool Information</h1>
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item active" aria-current="page">Echart Chart</li>
+									<li class="breadcrumb-item active" aria-current="page">Graphical Data</li>
 								</ol>
 							</div>
 						</div>
@@ -594,8 +602,8 @@
 								<div class="card overflow-hidden">
 									<div class="card-body">
 										<div>
-											<h6 class="main-content-label mb-1">Bar Chart</h6>
-											<p class="text-muted  card-sub-title">Below is the basic Bar chart example.</p>
+											<h6 class="main-content-label mb-1">Hashrate History</h6>
+											<p class="text-muted  card-sub-title">Below is the hashrate history.</p>
 										</div>
 										<div>
 											<div id="echart1" class="echart-height"></div>
@@ -607,8 +615,8 @@
 								<div class="card overflow-hidden">
 									<div class="card-body">
 										<div>
-											<h6 class="main-content-label mb-1">Combination line & Bar Chart</h6>
-											<p class="text-muted  card-sub-title">Below is the basic combination line & bar chart example.</p>
+											<h6 class="main-content-label mb-1">Worker History</h6>
+											<p class="text-muted  card-sub-title">Below is the workers history.</p>
 										</div>
 										<div>
 											<div id="echart2" class="echart-height"></div>

@@ -74697,7 +74697,7 @@ div.dtr-modal div.dtr-modal-content {
 }
 
 #task-list:after {
-    content: "|||||||||||||||";
+    content: "||||||||||||";
     position: absolute;
     height: 300px;
     width: 1px;
